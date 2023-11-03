@@ -1,8 +1,9 @@
 {
   "name": "logistoffice",
+  "source": "src/index.html",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/logistoffice",
+  "homepage": "https://goitacademy.github.io/logistoffice/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /logistoffice/"
@@ -10,6 +11,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JuliaGolban/logistoffice.git"
+  },
+  "keywords": [],
+  "author": "Brand maze",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
     "gsap": "^3.12.2",
@@ -19,7 +26,8 @@
     "@parcel/transformer-sass": "^2.10.2",
     "parcel": "^2.10.2",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
