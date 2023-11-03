@@ -12,10 +12,11 @@
     "url": "git+https://github.com/JuliaGolban/logistoffice.git"
   },
   "dependencies": {
+    "gsap": "^3.12.2",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-sass": "^2.10.2",
     "parcel": "^2.10.2",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
