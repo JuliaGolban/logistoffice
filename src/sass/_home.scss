@@ -1,14 +1,23 @@
 .canvas {
-    max-width: 1000px;
-    height: 400px;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
 
-    background-image: url("https://cdn-icons-png.flaticon.com/512/361/361678.png"),
-        url("https://cdn-icons-png.flaticon.com/512/4206/4206277.png"),
-        url("https://cdn-icons-png.flaticon.com/512/814/814513.png"), url('https://stickerswiki.ams3.cdn.digitaloceanspaces.com/Pig_Valera/223715.512.webp'),
-        url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+    background: rgb(240, 218, 101);
+    background: linear-gradient(180deg, rgba(240, 218, 101, 1) 0%, rgba(200, 233, 148, 1) 100%);
+    background-position: center;
 
-    background-size: 80px, 100px, 150px, 130px, cover;
-    background-repeat: no-repeat;
-    background-position: top 120px right 130px, top 270px left 130px, center, 100px 60px,
-        center;
+    & img {
+        margin-top: 350px;
+        width: 100px;
+        height: auto;
+    }
+}
+
+.scrollElement {
+    position: absolute;
+    height: 100vh;
+    width: 100px;
+    top: 0;
+    z-index: 0;
 }
