@@ -272,7 +272,7 @@ n=0,w=eL())},t.onChange=function(t,e,r,i,s){if(rq!==n&&O(),e&&c&&y(C(i[2]===e?o+
 _getVelocityProp:t6,_inputObserver:na,_scrollers:tq,_proxies:tW,bridge:{// when normalizeScroll sets the scroll position (ss = setScroll)
 ss:function(){eU||rY("scrollStart"),eU=eL()},// a way to get the _refreshing value in Observer
 ref:function(){return ed}}},eZ()&&er.registerPlugin(ne),tw.registerPlugin(ne);let nf=tw.timeline();ne.create({animation:nf,trigger:".scrollElement",toggleActions:"restart reverse",start:"top top",end:"bottom 50%+=100px",//   duration: 2,
-scrub:3}),nf.to("#canva",{x:0,y:100,scale:2},0),nf.to("#canva1",{x:900,y:100},0),nf.to("#canva2-1",{x:-1e3,scale:.5},0),nf.to("#canva2-2",{x:1e3,scale:.5},0),nf.to("#canva3-1",{x:-1e3,scale:.1},0),nf.to("#canva3-2",{x:1e3,y:1e3,scale:.1,opacity:0},0),nf.to("#canva4",{x:-1e3,y:-1e3,scale:.1},0),nf.to("#canva5-1",{x:100,y:-100},0),nf.to("#canva5-2",{x:-100,y:-100},0),nf.to("#canva6",{delay:.03,scale:.7},0),nf.to("#canva7",{delay:.03,scale:1.5},0);// import './js/codepen';
-//# sourceMappingURL=index.3d86c553.js.map
+scrub:3}),nf.to("#canva",{x:0,y:100,scale:5},0),nf.to("#canva1",{x:900,y:100},0),nf.to("#canva2-1",{x:-1e3,scale:.5},0),nf.to("#canva2-2",{x:1e3,scale:.5},0),nf.to("#canva3-1",{x:-1e3,scale:.1},0),nf.to("#canva3-2",{x:1e3,y:100,scale:.1,opacity:0},0),nf.to("#canva4",{x:-1e3,y:-100,scale:.1},0),nf.to("#canva5-1",{x:100,y:-100},0),nf.to("#canva5-2",{x:-100,y:-100},0),nf.to("#canva6",{delay:.03,scale:.7},0),nf.to("#canva7",{delay:.03,scale:1.5},0);// import './js/codepen';
+//# sourceMappingURL=index.3d98fce5.js.map
 
-//# sourceMappingURL=index.3d86c553.js.map
+//# sourceMappingURL=index.3d98fce5.js.map

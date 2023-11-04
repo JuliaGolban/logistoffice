@@ -272,7 +272,7 @@ n=0,w=eN())},t.onChange=function(t,e,r,i,s){if(rq!==n&&O(),e&&c&&y(C(i[2]===e?o+
 _getVelocityProp:t4,_inputObserver:nu,_scrollers:tq,_proxies:tV,bridge:{// when normalizeScroll sets the scroll position (ss = setScroll)
 ss:function(){eX||rL("scrollStart"),eX=eN()},// a way to get the _refreshing value in Observer
 ref:function(){return e_}}},e$()&&en.registerPlugin(nr),tT.registerPlugin(nr);var nh=tT.timeline();nr.create({animation:nh,trigger:".scrollElement",toggleActions:"restart reverse",start:"top top",end:"bottom 50%+=100px",//   duration: 2,
-scrub:3}),nh.to("#canva",{x:0,y:100,scale:2},0),nh.to("#canva1",{x:900,y:100},0),nh.to("#canva2-1",{x:-1e3,scale:.5},0),nh.to("#canva2-2",{x:1e3,scale:.5},0),nh.to("#canva3-1",{x:-1e3,scale:.1},0),nh.to("#canva3-2",{x:1e3,y:1e3,scale:.1,opacity:0},0),nh.to("#canva4",{x:-1e3,y:-1e3,scale:.1},0),nh.to("#canva5-1",{x:100,y:-100},0),nh.to("#canva5-2",{x:-100,y:-100},0),nh.to("#canva6",{delay:.03,scale:.7},0),nh.to("#canva7",{delay:.03,scale:1.5},0);// import './js/codepen';
-}();//# sourceMappingURL=index.be8ab067.js.map
+scrub:3}),nh.to("#canva",{x:0,y:100,scale:5},0),nh.to("#canva1",{x:900,y:100},0),nh.to("#canva2-1",{x:-1e3,scale:.5},0),nh.to("#canva2-2",{x:1e3,scale:.5},0),nh.to("#canva3-1",{x:-1e3,scale:.1},0),nh.to("#canva3-2",{x:1e3,y:100,scale:.1,opacity:0},0),nh.to("#canva4",{x:-1e3,y:-100,scale:.1},0),nh.to("#canva5-1",{x:100,y:-100},0),nh.to("#canva5-2",{x:-100,y:-100},0),nh.to("#canva6",{delay:.03,scale:.7},0),nh.to("#canva7",{delay:.03,scale:1.5},0);// import './js/codepen';
+}();//# sourceMappingURL=index.66364bfe.js.map
 
-//# sourceMappingURL=index.be8ab067.js.map
+//# sourceMappingURL=index.66364bfe.js.map
