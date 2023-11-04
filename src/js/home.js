@@ -67,5 +67,5 @@ if (widthWindow < 500) {
   canvas.to('#canva5-1', { x: 1 * speed, y: -1 * speed }, 0);
   canvas.to('#canva5-2', { x: -1 * speed, y: -1 * speed }, 0);
   canvas.to('#canva6', { delay: 0.03, scale: 0.7 }, 0);
-  canvas.to('#canva7', { delay: 0.03, scale: 1.5 }, 0);
+  canvas.to('#canva7', { y: -1 * speed, delay: 0.03, scale: 1.5 }, 0);
 }
