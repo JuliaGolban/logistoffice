@@ -111,11 +111,38 @@
  #canva4-2 {
      position: absolute;
      top: 60%;
-     right: 5%;
+     right: -15%;
      z-index: 6;
-     width: 100px;
-     height: auto;
+     width: 200px;
+     height: 250px;
  }
+ #canva4-2-1 {
+    position: absolute;
+    top: 63%;
+    right: -30%;
+    z-index: 6;
+    width: 200px;
+    height: 250px;
+    transform: scale(1.2);
+}
+ #canva4-2-2 {
+    position: absolute;
+    top: 66%;
+    right: -45%;
+    z-index: 6;
+    width: 200px;
+    height: 250px;
+    transform: scale(1.4);
+}
+ #canva4-2-3 {
+    position: absolute;
+    top: 69%;
+    right: -60%;
+    z-index: 6;
+    width: 200px;
+    height: 250px;
+    transform: scale(1.6);
+}
 
  #canva5-1 {
      position: absolute;
