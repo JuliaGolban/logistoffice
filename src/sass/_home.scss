@@ -40,19 +40,20 @@
      height: 100vh;
 
      background: rgb(240, 218, 101);
-     background: linear-gradient(180deg, rgba(240, 218, 101, 1) 0%, rgba(200, 233, 148, 1) 100%);
+     background: linear-gradient(180deg, rgba(240, 218, 101, 1) 0%, rgba(200, 233, 148, 1) 50%, rgba(9, 92, 36, 1) 100%);
      background-position: center;
+ }
 
-     & img {
-         width: auto;
-         height: auto;
-     }
+ //   .screen2,
+ .screen3,
+ .screen4 {
+     visibility: hidden;
  }
 
  #car {
      position: absolute;
      top: 67%;
-     left: 53%;
+     left: 40%;
      z-index: 10;
      width: 50px;
      height: auto;
@@ -64,7 +65,7 @@
      }
 
      //  &.active {
-     //  animation: vibrate 2s linear infinite both;
+     //      animation: vibrate 2s linear infinite both;
      //  }
  }
 
@@ -72,7 +73,7 @@
  #sun {
      position: absolute;
      top: 5%;
-     right: 25%;
+     right: 35%;
      z-index: 2;
      width: 100px;
      height: auto;
@@ -142,21 +143,20 @@
 
  #tree {
      position: absolute;
-     top: 47%;
-     left: 13%;
+     top: 53%;
+     left: 25%;
      z-index: 3;
      width: 60px;
      height: auto;
 
      @media screen and (min-width: $tablet) {
-         top: 53%;
-         left: 15%;
+         width: 70px;
      }
  }
 
  #trees {
      position: absolute;
-     top: 45%;
+     top: 48%;
      right: 30%;
      z-index: 3;
      width: 80px;
@@ -225,31 +225,27 @@
  #build {
      &-1 {
          position: absolute;
-         top: 60%;
-         left: 13%;
+         top: 55%;
+         left: 20%;
          z-index: 3;
-         width: 70px;
+         width: 60px;
          height: auto;
 
          @media screen and (min-width: $tablet) {
-             top: 55%;
-             left: 15%;
              width: 100px;
          }
      }
 
      &-2 {
          position: absolute;
-         top: 65%;
-         right: 10%;
+         top: 55%;
+         right: 20%;
          transform: rotateY(180deg);
          z-index: 3;
          width: 60px;
          height: auto;
 
          @media screen and (min-width: $tablet) {
-             top: 55%;
-             right: 20%;
              width: 100px;
          }
      }
